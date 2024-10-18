@@ -1,0 +1,24 @@
+Potential Improvements
+
+One of the first steps we can take is to use more than just the standard RGB images. By adding Near-Infrared (NIR) and Short-Wave Infrared (SWIR) bands, we can capture features that remain consistent throughout the year, making our matches more reliable despite changes in vegetation and lighting.
+
+Seasonal variations often cause significant differences in how images appear. To tackle this, we can apply advanced preprocessing techniques like histogram matching or invariant feature extraction. These methods help minimize the impact of lighting changes, allowing our algorithm to focus on the actual features of the landscape.
+
+Currently, we use SIFT for feature detection, but exploring other options like SURF, ORB, or AKAZE might offer better performance and faster processing times. Different detectors can handle various image conditions more effectively, enhancing the overall matching process.
+
+Handling large images without losing important details is another area for improvement. By processing images in smaller tiles or using image pyramids, we can maintain high-resolution details essential for accurate matching. This approach ensures that no critical information is lost during resizing.
+
+
+Incorporating machine learning models like Random Forests or Support Vector Machines can help classify keypoints and filter out poor matches, increasing the accuracy of our results. Additionally, adopting deep learning methods like Convolutional Neural Networks (CNNs) or Siamese networks can further enhance feature extraction and matching by learning more complex patterns.
+
+Moreover, DL approaches can significantly impact on our project, so in my opinion, this is main improvement as for now.
+
+Improving how we handle outliers is essential for reliable matching. While RANSAC is effective, experimenting with other robust methods like M-estimators or Least Median of Squares can provide better outlier rejection, leading to more accurate homography estimations.
+
+To objectively measure our algorithm’s performance, we should define and track metrics such as matching accuracy, precision, recall, and F1-score. These metrics will help us assess improvements and compare different versions of the algorithm systematically.
+
+
+
+Conclusion
+
+Now project has large field of possibilities, but the topic is new to me, but interesting and worth time-spending.
