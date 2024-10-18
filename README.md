@@ -1,4 +1,4 @@
-# ImageMatching
+
 # README.md
 
 # Sentinel-2 Satellite Image Matching using Classical Machine Learning
