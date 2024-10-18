@@ -112,7 +112,7 @@ The algorithm follows these main steps:
 - `requirements.txt`: List of required Python libraries.
 - `model_training.py`: Python script for model training and algorithm creation.
 - `model_inference.py`: Python script for model inference.
-- `Demo.ipynb`: Jupyter notebook demonstrating the algorithm with visualization.
+- `demo-season-imagematching.ipynb`: Jupyter notebook demonstrating the algorithm with visualization.
 - `utils.py`: Contains helper functions used across scripts.
 
 
